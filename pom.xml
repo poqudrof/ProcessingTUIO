@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.inria</groupId>
     <artifactId>processingTUIO</artifactId>
-    <version>0.5-SNAPSHOT</version>
+    <version>0.5</version>
     <packaging>jar</packaging>
 
     <name>processing TUIO</name>
@@ -11,13 +11,6 @@
     <description>Tuio Processing, PapARt version.</description>
     <url>http://papart.gforge.inria.fr</url>
     
-    <distributionManagement>
-        <repository>
-            <id>clojars</id>
-            <name>Clojars repository</name>
-            <url>https://clojars.org/repo</url>
-        </repository>
-    </distributionManagement>
     
     <scm>
         <tag>5740a45f76b1df7001935b430bf78b165ce3b86e</tag> 
@@ -41,9 +34,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>2.3.2</version>
+                <version>2.6</version>
                 <configuration>
-                    <finalName>processingTUIO</finalName>                   
+                    <finalName>processingTUIO</finalName>  
                 </configuration>
             </plugin> 
             
@@ -70,22 +63,6 @@
                         <id>attach-sources</id>
                         <goals>
                             <goal>jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            
-        
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
                         </goals>
                     </execution>
                 </executions>
