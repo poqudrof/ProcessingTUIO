@@ -227,4 +227,19 @@ public class TuioProcessing implements TuioListener {
 		//called when the host applet is stopped, so this should shut down
 		//any threads, disconnect from the net, unload memory, etc. 
 	}
+
+    @Override
+    public void addTuioBlob(TuioBlob tblb) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void updateTuioBlob(TuioBlob tblb) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void removeTuioBlob(TuioBlob tblb) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
