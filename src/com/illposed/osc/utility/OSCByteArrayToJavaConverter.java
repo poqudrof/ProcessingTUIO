@@ -30,6 +30,8 @@ public class OSCByteArrayToJavaConverter {
 
 	/**
 	 * Helper object for converting from a byte array to Java objects
+         * @param byteArray
+         * @param bytesLength
 	 */
 	/*public OSCByteArrayToJavaConverter() {
 		super();

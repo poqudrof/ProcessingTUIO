@@ -99,7 +99,7 @@ public class TuioTime {
 	 * and assigs its Seconds and Microseconds values to the newly created TuioTime.
 	 *
 	 * @param  ttime  the TuioTime used to copy
-	 * @param  the Frame ID to associate
+         * @param f_id the Frame ID to associate
 	 */	
 	public TuioTime (TuioTime ttime, long f_id) {
 		this.seconds = ttime.getSeconds();

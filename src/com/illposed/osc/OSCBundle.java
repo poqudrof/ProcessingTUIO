@@ -59,7 +59,7 @@ public class OSCBundle extends OSCPacket {
 
 	/**
 	 * @param newPackets OscPacket[]
-	 * @param time java.lang.Time
+          * @param newTimestamp
 	 */
 	public OSCBundle(OSCPacket[] newPackets, Date newTimestamp) {
 		super();
