@@ -49,7 +49,7 @@
         <url>https://github.com/potioc/ProcessingTUIO</url>
     </scm> 
     
-     <distributionManagement>
+    <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -60,6 +60,13 @@
         </repository>
     </distributionManagement>
     
+    <dependencies>
+        <dependency>
+            <groupId>org.processing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.7</version>
+        </dependency>
+    </dependencies>
     
     <build>
         <sourceDirectory>src</sourceDirectory>
@@ -78,7 +85,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.6</version>
-<!--                <configuration>
+                <!--                <configuration>
                     <finalName>processingTUIO</finalName>  
                 </configuration>-->
             </plugin> 
@@ -112,7 +119,7 @@
             </plugin>
             
             
-<!--            <plugin>
+            <!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.6</version>
@@ -142,12 +149,5 @@
         </plugins>
         
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>org.processing</groupId>
-            <artifactId>core</artifactId>
-            <version>2.2.1</version>
-        </dependency>
-       
-    </dependencies>
+ 
 </project>
