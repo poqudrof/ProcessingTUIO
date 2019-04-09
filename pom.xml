@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>fr.inria.potioc</groupId>
+    <groupId>tech.lity.rea</groupId>
     <artifactId>ProcessingTUIO</artifactId>
     <version>1.1.0</version>
     <packaging>jar</packaging>
@@ -27,7 +27,7 @@
         </developer>
         <developer>
             <name>Jeremy Laviole</name>
-            <url>http://jeremy.laviole.name</url>
+            <url>http://rea.lity.tech</url>
             <roles>
                 <role>TUIO Processing deployment and update</role>
             </roles>
@@ -119,7 +119,7 @@
             </plugin>
             
             
-            <!--            <plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.6</version>
@@ -144,7 +144,7 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
-            </plugin>-->
+            </plugin>
                 
         </plugins>
         
